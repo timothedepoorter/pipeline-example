@@ -10,7 +10,7 @@ services:
       - SPRING_DATASOURCE_USERNAME=postgres_username
       - SPRING_DATASOURCE_PASSWORD=postgres_password
     volumes:
-      - ./:/app
+      - ./:/back
     networks:
       - myapp
 
