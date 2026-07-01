@@ -1,5 +1,6 @@
 package fr.timothe.pipeline;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -10,4 +11,8 @@ class PipelineApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    void fakeTest() {
+        Assertions.assertEquals(2, 1+1);
+    }
 }
